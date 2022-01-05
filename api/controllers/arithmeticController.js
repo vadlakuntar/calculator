@@ -16,7 +16,7 @@ exports.calculate = function(req, res) {
     'multiply': function(a,b) { return a * b },
     'divide':   function(a,b) { return a / b },
   };
-
+//In addition, include a comment on the preceding line stating using + operator to type cast variables as integers in order to presvent string concatination.
   // Determine the operation
 
   if (! req.query.operation) {
